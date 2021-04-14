@@ -19,29 +19,22 @@
 }
 
 .nav__notification{
-    background-color: tomato;
+    
     position:absolute;
-    bottom:17px;
     right:-10px;
-    width: 23px;
-    height: 23px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-
+    bottom:17px;
+    
 
 }
 
 .nav__event-notification{
-    background-color: red;
-    width: 5px;
-    height: 5px;
-    display:block;
     position: absolute;
-    border-radius: 50%;
     right: -8px;
     top:-8px;
+    display:block;
     
+}
+
+.nav__event-notification .badge--sm{
+
 }

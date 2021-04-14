@@ -3,6 +3,7 @@
     text-align: center;
     background-color: #FaFaFa;
     padding:15px 0px;
+    margin-bottom:10px; 
     
 }
 
@@ -15,4 +16,15 @@
 #friends-display-link i{
     color:rgba(0,0,0,0.3);
 
+}
+
+.friends-screen{
+    padding:0px var(--horizontal-space);    
+}
+
+.friends-screen__channel-header{
+    padding:20px 0px;
+    display:flex;
+    justify-content: space-between;
+    border-top:1px solid rgba(0,0,0,0.2);
 }

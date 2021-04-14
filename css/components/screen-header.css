@@ -11,5 +11,13 @@
 }
 
 .screen-header__icons span{
-    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.screen-header__icons .badge--sm{
+    position:absolute;
+    top:0px;
+    right: -28px;
+
 }
