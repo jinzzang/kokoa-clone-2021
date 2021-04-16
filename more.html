@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find - KoKoa Talk</title>
+    <title>More - KoKoa Talk</title>
 </head>
 
 <body>
@@ -26,87 +26,78 @@
     </div>
 
     <header class="screen-header">
-        <div class="screen-header__title">Find</div>
+        <div class="screen-header__title">More</div>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i><span class="badge--sm"></span></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
         </div>
     </header>
 
     <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="avatar.jpg" alt="" class="user-component__avatar user-component__avatar--xl">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Cho Jin Ho</h4>
+                    <h6 class="user-component__subtitle">01622346659</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
         <div class="icon-row">
             <div class="icon-row__icon">
                 <i class="fas fa-qrcode"></i>
-                <span>QR Code</span>
+                <span>Calandar</span>
             </div>
             <div class="icon-row__icon">
                 <i class="far fa-address-book"></i>
-                <span>Add by Contacts</span>
+                <span>Emoticons</span>
             </div>
             <div class="icon-row__icon">
                 <i class="fas fa-fingerprint">
                 </i>
-                <span>Add by ID</span>
+                <span>Themes</span>
             </div>
             <div class="icon-row__icon">
                 <i class="far fa-envelope">
                 </i>
-                <span>Invite</span>
+                <span>Account</span>
             </div>
-        </div>
-        <div class="recommended-friends">
-            <div class="recommended-friends__title">Recommended Friends</div>
-            <span>You have no recommended friends.</span>
         </div>
 
-        <div class="open-chat">
-            <div class="open-chat__header">
-                <h4>Open Chat</h4>
-                <span>Go to Openchat Home<i class="fas fa-chevron-right fa-sm"></i></span>
-            </div>
-            <div class="open-post">
-                <div class="open-post__column">
-                    <div class="open-post__title">#BTS</div>
-                    <div class="open-post__hastags">#bts#army#friends</div>
-                    <div class="open-post__members">
-                        <img src="avatar.jpg"></img>
-                        <span class="open-post__member-counts">802 members</span>
-                        <div class="divider"></div>
-                        <span class="open-post__member-status">Active</span>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
                     </div>
+                    <span class="more-suggestions__icon-text">Kokoa Story</span>
                 </div>
-                <div class="open-post__column">
-                    <div class="open-post__photo">
-                        <img src="avatar.jpg" alt="">
-                        <div class="open-post__heart-count">
-                            <i class="fas fa-heart"></i>
-                            <span>326</span>
-                        </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
                     </div>
+                    <span class="more-suggestions__icon-text">Kokoa Story</span>
                 </div>
             </div>
-
         </div>
+
+
 
     </main>
 
     <nav class="nav">
         <ul class="nav__ul">
-            <li class="nav__btn">
-                <a href="friends.html" class="nav__link">
-                    <i class="far fa-user fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a href="chats.html" class="nav__link">
+            <li class="nav__btn"><a href="friends.html" class="nav__link"><i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a href="chats.html" class="nav__link">
                     <span class="nav__notification badge">1</span>
                     <i class="far fa-comment fa-2x"></i></a>
             </li>
-            <li class="nav__btn">
-                <a href="find.html" class="nav__link">
-                    <i class="fas fa-search fa-2x"></i>
-                </a>
-            </li>
+            <li class="nav__btn"><a href="find.html" class="nav__link"><i class="fas fa-search fa-2x"></i></a></li>
             <li class="nav__btn">
                 <a href="more.html" class="nav__link">
                     <span class="nav__event-notification badge--sm"> </span>
